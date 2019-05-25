@@ -16,7 +16,7 @@ export default {
   changeColor (newColor) {
     var lastColor = this.lastColor || this.primaryColor
     var options = {
-      cssUrl: '/css/theme-colors.css',
+      cssUrl: 'css/theme-colors.css',
       oldColors: this.getAntdSerials(lastColor), // current colors array. The same as `matchColors`
       newColors: this.getAntdSerials(newColor) // new colors array, one-to-one corresponde with `oldColors`
     }
